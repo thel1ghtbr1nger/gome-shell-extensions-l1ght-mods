@@ -37,6 +37,7 @@ classic_extensions = [
 default_extensions = classic_extensions
 default_extensions += [
   'drive-menu',
+  'heads-up-display',
   'screenshot-window-sizer',
   'windowsNavigator',
   'workspace-indicator'
