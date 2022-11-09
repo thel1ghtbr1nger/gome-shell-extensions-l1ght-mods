@@ -18,7 +18,7 @@ const appSys = Shell.AppSystem.get_default();
 
 const APPLICATION_ICON_SIZE = 32;
 const HORIZ_FACTOR = 5;
-const MENU_HEIGHT_OFFSET = 132;
+const MENU_HEIGHT_OFFSET = 5;
 const NAVIGATION_REGION_OVERSHOOT = 50;
 
 Gio._promisify(Gio._LocalFilePrototype, 'query_info_async', 'query_info_finish');
