@@ -584,7 +584,7 @@ class ApplicationsButton extends PanelMenu.Button {
 
     _display() {
         this._applicationsButtons.clear();
-        this.mainBox.style = 'width: 35em;';
+        this.mainBox.style = 'width: 20em;';
         this.mainBox.hide();
 
         // Load categories
