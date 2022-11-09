@@ -37,14 +37,6 @@ class ApplicationMenuItem extends PopupMenu.PopupBaseMenuItem {
         this._iconBin = new St.Bin();
         this.add_child(this._iconBin);
 
-        let appLabel = new St.Label({
-            text: app.get_name(),
-            y_expand: true,
-            y_align: Clutter.ActorAlign.CENTER,
-        });
-        this.add_child(appLabel);
-        this.label_actor = appLabel;
-
         let textureCache = St.TextureCache.get_default();
         let iconThemeChangedId = textureCache.connect('icon-theme-changed',
             this._updateIcon.bind(this));
